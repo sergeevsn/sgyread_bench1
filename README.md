@@ -49,7 +49,7 @@ g++ -O3 -o hdr_cpp hdr_cpp.cpp -lm
 |:-------------|:------------:|--------------:|
 |   С++     | 17,135        | 1    |
 |   Python(file.read)  | 30,071 |   2 |
-|   Python(segyio.read) | 32,356 | 3 |
-|   Python(numpy.read)  | 46,081 | 4 |
+|   Python(segyio) | 32,356 | 3 |
+|   Python(numpy.fromfile)  | 46,081 | 4 |
 
 
