@@ -47,9 +47,9 @@ g++ -O3 -o hdr_cpp hdr_cpp.cpp -lm
 ### Мои результаты
 | Способ | Время,c     | Ранг       |
 |:-------------|:------------:|--------------:|
-|   С++     | 17,135        | 1    |
-|   Python(file.read)  | 30,071 |   2 |
-|   Python(segyio) | 32,356 | 3 |
-|   Python(numpy.fromfile)  | 46,081 | 4 |
+|   С++     | 1,138        | 1    |
+|   Python(segyio)  | 1,993 |   2 |
+|   Python(numpy.fromfile) | 6.089 | 3 |
+|   Python(file.read)  | 10,499 | 4 |
 
 
